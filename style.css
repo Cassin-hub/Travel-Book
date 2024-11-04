@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+}
+/* important*/
+.background-image {
+    background-size: cover;
+    background-position: center;
+    background-image: 
+      linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.628)), 
+      url(images/backpack-mountain.jpg);
+    width: 100%;
+    height: 100vh;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+/* important fin */
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 15px;
+    list-style-type: none;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+    font-family: "Shadows Into Light", serif;
+}
+
+h1 {
+    padding-right: 20px;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 1em;
+    padding-top: 8%;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+.svg-top {
+    width: 15px;
+    color: white;
+}
+
+
+p {
+    color: white;
+    font-family: "Open sans", serif;
+    font-size: 20px;
+}
+/*important à retenir flexbox*/
+.hello {
+    height: 75vh;
+    background-color: #0D4A80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-blog {
+    width: 60px;
+}
+
+.svg-icon {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hello-text {
+    text-align: center;
+    max-width: 50%;
+    margin-bottom: 30px;
+}
+
+.australia {
+    height: 50vh;
+    background-color: #042645;
+    display: flex;
+}
+
+.dot-australia {
+    width: 15px;
+    padding-right: 10px;
+}
+
+.img-australia {
+    max-width: 40%;
+    padding-right: 60px;
+}
+
+.gold {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-australia {
+    display: flex;
+
+}
+
+.caledonia {
+    height: 50vh;
+    background-color: #042645;
+    display: flex;
+}
+
+.dot-caledonia {
+    width: 15px;
+    padding-right: 10px;
+}
+
+.img-caledonia {
+    max-width: 40%;
+}
+
+.new {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-caledonia {
+    display: flex;
+}
+
+.p-caledonia {
+    padding-left: 60px;
+}
+
+.fuji {
+    height: 50vh;
+    background-color: #042645;
+    display: flex;
+}
+
+.img-japan {
+    max-width: 40%;
+    padding-right: 60px;
+}
+
+.dot-japan {
+    width: 15px;
+    padding-right: 10px;
+}
+
+.japan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-japan {
+    display: flex;
+}
+
+.svg-social {
+    width: 15px;
+    padding: 5px;
+}
+
+.svg-social:hover {
+    background-color: #C7D93D;
+}
+
+footer {
+    font-size: 0.8em;
+    height: 25vh;
+    background-color: #0D4A80;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.foot-contact {
+    margin: 0;
+}
+.svg-top {
+    width: 2em;
+    opacity: 0.4;
+}
+.social {
+    padding-left: 2px;
+}
+.back-top {
+    display: flex;
+    align-items: flex-end;
+}
+h6 {
+    height: 5vh;
+    background-color: #0D4A80;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    font-size: 1em;
+}
